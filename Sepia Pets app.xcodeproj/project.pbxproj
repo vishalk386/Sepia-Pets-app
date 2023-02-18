@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544AF7E729A09207009BBD42 /* PetsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544AF7E629A09207009BBD42 /* PetsListViewController.swift */; };
 		549343F829A0896D001490DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549343F729A0896D001490DE /* AppDelegate.swift */; };
 		549343FA29A0896D001490DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549343F929A0896D001490DE /* SceneDelegate.swift */; };
-		549343FC29A0896D001490DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549343FB29A0896D001490DE /* ViewController.swift */; };
 		549343FF29A0896D001490DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549343FD29A0896D001490DE /* Main.storyboard */; };
 		5493440129A0896E001490DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5493440029A0896E001490DE /* Assets.xcassets */; };
 		5493440429A0896E001490DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5493440229A0896E001490DE /* LaunchScreen.storyboard */; };
@@ -36,10 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		544AF7E629A09207009BBD42 /* PetsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListViewController.swift; sourceTree = "<group>"; };
 		549343F429A0896D001490DE /* Sepia Pets app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sepia Pets app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		549343F729A0896D001490DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		549343F929A0896D001490DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		549343FB29A0896D001490DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		549343FE29A0896D001490DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5493440029A0896E001490DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5493440329A0896E001490DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,9 +99,9 @@
 		549343F629A0896D001490DE /* Sepia Pets app */ = {
 			isa = PBXGroup;
 			children = (
+				5493442729A09155001490DE /* ViewControllers */,
 				549343F729A0896D001490DE /* AppDelegate.swift */,
 				549343F929A0896D001490DE /* SceneDelegate.swift */,
-				549343FB29A0896D001490DE /* ViewController.swift */,
 				549343FD29A0896D001490DE /* Main.storyboard */,
 				5493440029A0896E001490DE /* Assets.xcassets */,
 				5493440229A0896E001490DE /* LaunchScreen.storyboard */,
@@ -125,6 +125,14 @@
 				5493441A29A0896E001490DE /* Sepia_Pets_appUITestsLaunchTests.swift */,
 			);
 			path = "Sepia Pets appUITests";
+			sourceTree = "<group>";
+		};
+		5493442729A09155001490DE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				544AF7E629A09207009BBD42 /* PetsListViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				549343FC29A0896D001490DE /* ViewController.swift in Sources */,
+				544AF7E729A09207009BBD42 /* PetsListViewController.swift in Sources */,
 				549343F829A0896D001490DE /* AppDelegate.swift in Sources */,
 				549343FA29A0896D001490DE /* SceneDelegate.swift in Sources */,
 			);
