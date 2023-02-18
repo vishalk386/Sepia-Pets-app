@@ -38,6 +38,9 @@ extension PetsListViewController: UITableViewDelegate,UITableViewDataSource{
         return 100.0
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Selected IndexPath \(indexPath)")
+        if let vc = storyboard?.instantiateViewController(identifier: "PetsDetailsViewController") as? PetsDetailsViewController{
+            vc.petData = petsData[indexPath.row]
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 }
