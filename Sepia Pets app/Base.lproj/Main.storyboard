@@ -92,14 +92,24 @@
             </objects>
             <point key="canvasLocation" x="2104.5801526717555" y="106.33802816901409"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Sepia Pets app-->
         <scene sceneID="xPa-mz-ePO">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="r6t-mR-cbd" sceneMemberID="viewController">
+                <navigationController title="Sepia Pets app" automaticallyAdjustsScrollViewInsets="NO" id="r6t-mR-cbd" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xxZ-7S-del">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="standardAppearance">
+                            <color key="backgroundColor" red="0.21465185279999999" green="0.20995277170000001" blue="0.20542255039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </navigationBarAppearance>
+                        <navigationBarAppearance key="compactAppearance">
+                            <color key="backgroundColor" red="0.55770379299999995" green="0.65881353620000005" blue="0.25505241750000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </navigationBarAppearance>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" red="0.55770379299999995" green="0.65881353620000005" blue="0.25505241750000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </navigationBarAppearance>
+                        <navigationBarAppearance key="compactScrollEdgeAppearance"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

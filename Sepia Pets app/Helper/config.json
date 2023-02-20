@@ -1,3 +1,4 @@
-"settings": {
-	"workHours" : "M-F 9:00 - 18:00"
+{ "settings": {
+	"workHours" : "M-F 09:00 - 20:00"
+}
 }

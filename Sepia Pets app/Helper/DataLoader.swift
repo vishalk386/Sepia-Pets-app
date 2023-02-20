@@ -27,4 +27,22 @@ public class DataLoader {
         }
         
     }
+    
+    func parseConfigData() -> Settings? {
+        guard let url = Bundle.main.url(forResource: "config", withExtension: "json") else {
+            print("\n-------> bundle path error")
+            return nil
+        }
+        
+        do {
+            let jsonData = try Data(contentsOf: url)
+            let response = try JSONDecoder().decode(ConfigData.self, from: jsonData)
+            print("\n-------> response: \(response)")
+            return response.settings
+        }
+        catch {
+            print("\n====> error: \(error)" )
+            return nil
+        }
+    }
 }
